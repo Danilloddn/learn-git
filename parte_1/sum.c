@@ -1,5 +1,5 @@
 #include "arithmetic.h"
 
-    int sum(int x, int y) {
-        // Definir funcao de soma
-    }
+int sum(int x, int y) {
+  return x + y;
+}

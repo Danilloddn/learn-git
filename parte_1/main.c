@@ -3,11 +3,9 @@
 
 
 int main() {
-
-    printf("4 + 2 = %d\n", sum(4, 2));
-    printf("4 - 2 = %d\n", sub(4, 2));
-    printf("4 x 2 = %d\n", mul(4, 2));
-    printf("4 / 2 = %d\n", div(4, 2));
-
-    return 0;
-}
+	int x,y,op;
+	printf("Digite os valores de x e y respectivamente");
+	scanf("%d %d",&x,&y);
+	printf("Digite o numero da operação desejada: 1-soma\n 2-sub\n 3-mul\n 4-div\n");
+	scanf("%d",&op);
+	
